@@ -1,0 +1,129 @@
+h1{
+    color: black;
+font-size: 35px;
+}
+h3{
+    color:black;
+}
+/**{
+border:solid;
+
+}*/
+body{
+    background-color: black;
+}
+
+.header
+{
+    padding-top:1%;
+    background-color:peachpuff;
+    height: 100px;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+.icon
+{
+    display: flex;
+    justify-content: flex-end;
+
+}
+.footer{
+    display: flex;
+    
+}
+h2{
+color: black;
+}
+p{
+    color: black;
+}
+.my{
+    background-color: peachpuff;
+    color:black;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+.bg-image {
+   
+   
+    margin-right: 50%;
+    /* Add the blur effect */
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    
+    /* Full height */
+    
+    
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* Position text in the middle of the page/image */
+  .bg-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 167%;
+  
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 50%;
+    margin-left: 20%;
+    height: 70%;
+ 
+    padding: 20px;
+    text-align: center;
+  }
+  @media(max-width: 820px)
+  {
+    .bg-image{
+        width:20%;
+      
+    }
+    .bg-text{
+        top: 390%;
+       margin-right: 10%;
+       height: 80%;
+       width: 120%;
+    }
+  }
+  @media(max-width: 620px)
+  {
+    .bg-image{
+        width:20%;
+    }
+
+.bg-text{
+        top: 350%;
+     color:white;
+       height: 50%;
+       width: 50%;
+    }
+  }
+  @media(max-width: 420px)
+  {
+    .bg-image{
+        width:20%;
+    }
+    .bg-text{
+        top: 350%;
+     color:white;
+       height: 50%;
+       width: 120%;
+    
+    }
+  }
